@@ -135,3 +135,15 @@ def recv_exact(conn, n: int) -> bytes:
         chunks.append(chunk)
         received += len(chunk)
     return b"".join(chunks)
+
+
+def parse_data_packet(packet: bytes) -> bytes:
+    """Parse data channel packet: return ciphertext."""
+    if len(packet) < LENGTH_HEADER_SIZE:
+        raise ValueError("Data packet quá ngắn.")
+    ct_len = struct.unpack("!I", packet[:LENGTH_HEADER_SIZE])[0]
+    if ct_len <= 0:
+        raise ValueError("Ciphertext length phải > 0")
+    if len(packet) != LENGTH_HEADER_SIZE + ct_len:
+        raise ValueError("Data packet có độ dài không đúng.")
+    return packet[LENGTH_HEADER_SIZE:]

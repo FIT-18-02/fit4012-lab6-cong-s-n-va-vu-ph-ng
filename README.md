@@ -16,20 +16,20 @@ Lab này kế thừa ý tưởng từ Lab 3 DES Socket, nhưng nâng cấp theo 
 
 ## Team members
 
-- **Thành viên 1**: TODO_MEMBER_1 - MSSV: TODO_MEMBER_1_ID
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 1**: NGUYỄN VŨ PHƯƠNG - MSSV: 1871020459
+- **Thành viên 2**: TẠ CÔNG SƠN - MSSV: 1871020504
 
 ## Task division
 
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
+- **Thành viên 1 phụ trách chính**: NGUYỄN VŨ PHƯƠNG
+- **Thành viên 2 phụ trách chính**: TẠ CÔNG SƠN
 - **Phần làm chung**: TODO_SHARED_WORK
 
 ## Demo roles
 
-- **Demo Sender / kênh khóa / log gửi**: TODO_DEMO_ROLE_1
-- **Demo Receiver / kênh dữ liệu / giải mã**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
+- **Demo Sender / kênh khóa / log gửi**: NGUYỄN VŨ PHƯƠNG
+- **Demo Receiver / kênh dữ liệu / giải mã**: TẠ CÔNG SƠN
+- **Cả hai cùng trả lời threat model và ethics**: NGUYỄN VŨ PHƯƠNG và TẠ CÔNG SƠN
 
 ---
 
