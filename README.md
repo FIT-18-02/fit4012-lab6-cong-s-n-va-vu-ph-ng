@@ -220,3 +220,4 @@ CI sẽ kiểm tra:
 Một hệ thống có mã hóa chưa chắc đã là một hệ thống an toàn.
 
 AES-CBC giúp che nội dung plaintext, nhưng chưa tự động đảm bảo xác thực, toàn vẹn, chống replay hay bảo vệ key.
+ 
